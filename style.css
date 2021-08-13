@@ -1,0 +1,49 @@
+
+.centre_allign_under h1{
+	text-align:center; font-weight:bold; text-decoration:underline; 
+	padding:90px 100px; background-image:URL("img101.png");
+	color:indigo;
+	/* background:lightpink; */ }
+.centre_allign_under em{background:lightsalmon; font-size:90px;}
+
+.nav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color:blue;
+}
+
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.misc img{ display: block;
+	   margin-left: auto;
+  	   margin-right: auto;
+ 	   width: 50%; }
+.misc h2{text-align:center; margin-top:50px; margin-right:100px;}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #dddacd;
+  margin-top: 20px;
+}
+
+
+body{ height:100%;  
+      background-size:cover;
+      background-position:center;
+      background-attachment:fixed; background-color:#fff7f7; }
+
